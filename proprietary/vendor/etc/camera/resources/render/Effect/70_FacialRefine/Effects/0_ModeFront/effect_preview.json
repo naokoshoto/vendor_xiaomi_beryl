@@ -1,0 +1,556 @@
+{
+  "Effects":
+  [
+    {
+      "EffectName":"FacialRefine",
+      "SwitchOpt":
+      {
+        "EdgeProtection": true,
+        "CatMullRomSample": false
+      },
+      "PartList":
+      [
+        {
+          "##":"鼻子",
+          "Type":1001,
+          "DefaultDegreeList": [0,0,0,0,0],
+          "CtrlList":
+          [
+            {
+              "##Name": "鼻子大小",
+              "IndexList":[0],
+              "DegreeParam":
+              {
+                "ParamFlag":203,
+                "Default":0.5,
+                "InValidThreshold":0,
+                "DegreeRule":2,
+                "NonLinearUIData":[0,1.0],
+                "NonLinearValueData":[-1.0,1.0],
+                "FemaleFactor":1.0,
+                "MaleFactor":1.0,
+                "ChildFactor":1.0,
+                "OlderFactor":1.0,
+                "SmallFaceFactor":1.0,
+                "EnableGlobalMaleCoef":false
+              }
+            }
+          ]
+        },
+        {
+          "##":"嘴巴",
+          "Type":1003,
+          "DefaultDegreeList": [0,0,0,0,0],
+          "CtrlList":
+          [
+            {
+              "##Name": "嘴巴大小",
+              "IndexList":[0],
+              "DegreeParam":
+              {
+                "ParamFlag":213,
+                "Default":0.5,
+                "InValidThreshold":0,
+                "DegreeRule":2,
+                "NonLinearUIData":[0,1.0],
+                "NonLinearValueData":[-1.0,1.0],
+                "FemaleFactor":1.0,
+                "MaleFactor":1.0,
+                "ChildFactor":1.0,
+                "OlderFactor":1.0,
+                "SmallFaceFactor":1.0,
+                "EnableGlobalMaleCoef":false
+              }
+            }
+          ]
+        },
+        {
+          "##":"眉毛",
+          "Type":1005,
+          "DefaultDegreeList": [0,0,0,0,0,0,0,0,0,0],
+          "CtrlList":
+          [
+            {
+              "##Name": "眉毛距离",
+              "IndexList":[2, 3],
+              "DegreeParam":
+              {
+                "ParamFlag":200,
+                "Default":0.0,
+                "InValidThreshold":0,
+                "DegreeRule":2,
+                "NonLinearUIData":[0,1.0],
+                "NonLinearValueData":[0.0,-0.16],
+                "FemaleFactor":1.0,
+                "MaleFactor":1.0,
+                "ChildFactor":1.0,
+                "OlderFactor":1.0,
+                "SmallFaceFactor":1.0,
+                "EnableGlobalMaleCoef":false
+              }
+            }
+          ]
+        },
+        {
+          "##":"下巴收缩",
+          "Type":1004,
+          "DefaultDegreeList": [0, 0, 0],
+          "ParamList":
+          [
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.17,
+            0.00,
+            0.00,
+            0.27,
+            0.00,
+            0.00,
+            0.17,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00
+          ],
+          "FactorList":
+          [
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.22000,
+            0.00000,
+            0.00000,
+            0.25000,
+            0.00000,
+            0.00000,
+            0.22000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000,
+            0.00000
+          ],
+          "CtrlList":
+          [
+            {
+              "IndexList":[0, 1, 2],
+              "DegreeParam":
+              {
+                "ParamFlag":205,
+                "Default":0.5,
+                "InValidThreshold":0,
+                "DegreeRule":2,
+                "NonLinearUIData":[0, 0.5,1.0],
+                "NonLinearValueData":[0.3, 0.0, 0.0],
+                "FemaleFactor":1.0,
+                "MaleFactor":1.0,
+                "ChildFactor":1.0,
+                "OlderFactor":1.0,
+                "SmallFaceFactor":1.0,
+                "EnableGlobalMaleCoef":false
+              }
+            }
+          ]
+        },
+        {
+          "##":"下巴拉伸",
+          "Type":1004,
+          "DefaultDegreeList": [0, 0, 0],
+          "ParamList":
+          [
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            -0.21300,  
+            0.00000,
+            0.00000,    
+            -0.21600,  
+            0.00000,
+            0.00000,    
+            -0.21300,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00
+          ],
+          "FactorList":
+          [
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.08000,
+            0.00000,
+            0.00000,  
+            0.36000, 
+            0.00000, 
+            0.00000,  
+            0.08000,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00,
+            0.00
+          ],
+          "CtrlList":
+          [
+            {
+              "IndexList":[0, 1, 2],
+              "DegreeParam":
+              {
+                "ParamFlag":205,
+                "Default":0.5,
+                "InValidThreshold":0,
+                "DegreeRule":2,
+                "NonLinearUIData":[0, 0.5,1.0],
+                "NonLinearValueData":[0.0, 0.0, 0.3],
+                "FemaleFactor":1.0,
+                "MaleFactor":1.0,
+                "ChildFactor":1.0,
+                "OlderFactor":1.0,
+                "SmallFaceFactor":1.0,
+                "EnableGlobalMaleCoef":false
+              }
+            }
+          ]
+        },
+        {
+          "##":"发际线",
+          "Type":1007,
+          "DefaultDegreeList": [0],
+          "ParamList":[
+            0.140045,
+            0.130024,
+            0.100092,
+            0.05604,
+            0.000076
+          ],
+          "FactorList":[
+            0.0,
+            0.0,
+            0.0200,
+            0.0300,
+            0.0600,
+            0.1100,
+            0.2100,
+            0.2700,
+            0.3300,
+            0.3900,
+            0.4500,
+            0.4600,
+            0.4699,
+            0.4700,
+            0.4699,
+            0.4600,
+            0.4500,
+            0.3900,
+            0.3300,
+            0.2700,
+            0.2100,
+            0.1100,
+            0.0600,
+            0.0300,
+            0.0200,
+            0.0,
+            0.0
+          ],
+          "CtrlList":
+          [
+            {
+              "##Name": "发际线程度",
+              "IndexList":[0],
+              "DegreeParam":
+              {
+                "ParamFlag":202,
+                "Default":0.5,
+                "InValidThreshold":0,
+                "DegreeRule":2,
+                "NonLinearUIData":[0,0.5,1.0],
+                "NonLinearValueData":[-0.5, 0.0,0.6],
+                "FemaleFactor":1.0,
+                "MaleFactor":1.0,
+                "ChildFactor":1.0,
+                "OlderFactor":1.0,
+                "SmallFaceFactor":1.0,
+                "EnableGlobalMaleCoef":false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "EffectName":"FacialRefineV2",
+      "SwitchOpt": 
+      {
+        "CatMullRomSample": false,
+        "EdgeProtection": true
+      },
+      "PartList":
+      [
+        {
+          "PartType": 10,
+          "Path": "eye_refine.bin",
+          "RoiRect": [ 83.0, 108.0, 115.0, 39.0 ],
+          "GenerateType": 0,
+          "TransformFacePartType": 0,
+          "DegreeParam": 
+          {
+            "ParamFlag": 201,
+            "Default": 0,
+            "InValidThreshold": 0,
+            "DegreeRule": 1,
+            "Range": [ 0, 0.7 ],
+            "FemaleFactor": 1.0,
+            "MaleFactor": 1.0,
+            "ChildFactor": 1.0,
+            "OlderFactor": 1.0,
+            "SmallFaceFactor": 1.0,
+            "EnableGlobalMaleCoef": false
+          }
+        },
+        {
+          "PartType": -1,
+          "Path": "facelift.bin",
+          "RoiRect": [ 15.0, 25.0, 250.0, 242.0 ],
+          "GenerateType": 0,
+          "TransformFacePartType": 0,
+          "DegreeParam": 
+          {
+            "ParamFlag": 200,
+            "Default": 0,
+            "InValidThreshold": 0,
+            "DegreeRule": 1,
+            "Range": [ 0, 0.6 ],
+            "FemaleFactor": 1.0,
+            "MaleFactor": 1.0,
+            "ChildFactor": 1.0,
+            "OlderFactor": 1.0,
+            "SmallFaceFactor": 1.0,
+            "EnableGlobalMaleCoef": false
+          }
+        }
+      ]
+    },
+    {
+      "EffectName":"HeadNarrowGroup",
+      "SwitchOpt":
+      {
+        "CatMullRomSample": false,
+        "EdgeProtection":false,
+        "DymGrid":false
+      },
+      "TypeOpt": {
+        "ShelterList": [
+            7
+        ]
+      },
+      "ContourFactor": 
+      [
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.00000,
+        2.20000,
+        2.20000,
+        2.20000,
+        2.20000,
+        2.20000,
+        2.20000,
+        2.20000
+      ],
+      "DegreeParam":
+      {
+        "ParamFlag":222,
+        "Default":0.0,
+        "InValidThreshold":0,
+        "DegreeRule":1,
+        "Range":[0,0.7],
+        "FemaleFactor":1.0,
+        "MaleFactor":1.0,
+        "ChildFactor":1.0,
+        "OlderFactor":1.0,
+        "SmallFaceFactor":1.0,
+        "EnableGlobalMaleCoef":false
+      }
+    }
+  ]
+}

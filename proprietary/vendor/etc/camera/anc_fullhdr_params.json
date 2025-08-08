@@ -1,0 +1,66 @@
+{
+    "FULLHDR": {
+        "FRONT_MAIN_1": {
+            "HEAD_INFO": {
+                "TRIGGER_GAIN_1": 100,
+                "TRIGGER_GAIN_2": 400,
+                "TRIGGER_GAIN_3": 800,
+                "TRIGGER_GAIN_4": 1600,
+                "TRIGGER_GAIN_5": 3000,
+                "TRIGGER_GAIN_6": 4500
+            },
+            "PROFILE_1": {
+                "HGD_FIRST_THRESHOLD": 0.2,
+                "TM_CONTRAST_DEGREE": 0.4,
+                "TM_SATURATION_ADJUST_RATIO": 0.1,
+                "TM_HL_SATURATION_ADJUST_RATIO": 0.1,
+                "TM_BRIGHTAREA_DETAILS_ENHANCE_RATIO": 0.0,
+                "TM_DARKAREA_DETAILS_ENHANCE_RATIO": 1.0,
+                "FHF_FOREGROUND_BRIGHTEN_RATIO": 0.6,
+                "HF_BODY_MASK_BLEND_RATIO": 0.42,
+                "FUSION_INTENSITY": 0.3,
+                "YDENOISE_HF": 0.04,
+                "YDENOISE_MF": 0.04,
+                "YDENOISE_LF": 0.04,
+                "YDENOISE_LLF": 0.0,
+                "UVDENOISE_INTENSITY": 0.2,
+                "SHARPEN_INTENSITY": 0.42
+            },
+            "PROFILE_2": {},
+            "PROFILE_3": {},
+            "PROFILE_4": {},
+            "PROFILE_5": {},
+            "PROFILE_6": {}
+        },
+        "REAR_MAIN_1": {
+            "HEAD_INFO": {
+                "TRIGGER_GAIN_1": 100,
+                "TRIGGER_GAIN_2": 400,
+                "TRIGGER_GAIN_3": 800,
+                "TRIGGER_GAIN_4": 1600,
+                "TRIGGER_GAIN_5": 3000,
+                "TRIGGER_GAIN_6": 4500
+            },
+            "PROFILE_1": {
+                "HGD_FIRST_THRESHOLD": 0.2,
+                "TM_CONTRAST_DEGREE": 0.4,
+                "TM_SATURATION_ADJUST_RATIO": 0.1,
+                "TM_HL_SATURATION_ADJUST_RATIO": 0.1,
+                "TM_BRIGHTAREA_DETAILS_ENHANCE_RATIO": 0.0,
+                "TM_DARKAREA_DETAILS_ENHANCE_RATIO": 1.0,
+                "FHF_FOREGROUND_BRIGHTEN_RATIO": 0.6,
+                "FUSION_INTENSITY": 0.01,
+                "YDENOISE_HF": 0.0,
+                "YDENOISE_MF": 0.1,
+                "YDENOISE_LF": 0.1,
+                "UVDENOISE_INTENSITY": 0.2,
+                "SHARPEN_INTENSITY": 0.42
+            },
+            "PROFILE_2": {},
+            "PROFILE_3": {},
+            "PROFILE_4": {},
+            "PROFILE_5": {},
+            "PROFILE_6": {}
+        }
+    }
+}
